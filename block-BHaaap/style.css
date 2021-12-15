@@ -1,0 +1,35 @@
+img{
+    width: 500px;
+    height: 350px;
+    /*padding: 50px;*/
+    border: 10px solid chartreuse;
+    border-radius: 10px;
+}
+#circle{
+    background-color: red;
+    margin: 20px ;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    
+}
+p{
+    display: inline-block;
+    height: 600px;
+    width: 400;
+    border: 2px dotted black;
+    background-color: #D1D631;
+}
+h1{
+    display: inline-block;
+    background-color: #D18C1D;
+    border: 1px solid red;
+    padding: 10px;
+}
+nav{
+    background-color: #A1A1A1;
+    border: 3px dashed blue;
+    display: inline-block;
+    
+
+}
