@@ -2,34 +2,36 @@ header{
 text-align: center;
 font-size: 35px;
 font-style: normal;
-padding: 30px;
-margin-left: 100px;
-margin-right: 100px;
+padding: 30px 280px;
+/*margin-left: 100px;
+margin-right: 100px;*/
 }
 body{
-    text-align: center;
-    
+   
+   line-height: 1.5;  
     
 }
-section{
+.center{
     margin-left: 350px;
     margin-right: 350px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    text-align: center;   
 }
-hr{
-    width: auto;
-  border: 2px dotted;
-  border-style: none none dotted;
-  color: aquamarine;
-  padding: 10px;
-  
-  
-}
-h3{
+.name{
     text-align: center;
 }
-p{
+hr{
+    width: 500px;
+    border-style: dotted;
+    margin: 32px auto;
+  
+  
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    
+}
+/*p{
     width: 100px;
     height: 100px;
     background-color: cadetblue;
@@ -37,15 +39,15 @@ p{
     margin: auto;
     margin-top: 8px;
     
-}
+}*/
 .box{
     width: 120px;
     height: 120px;
-    
     background-color: cyan;
-    display: inline-block;
-    border: solid 2px black;
-    outline: coral solid 10px;
+    border: solid 20px coral;
+    outline: black solid 10px;
+    box-shadow:0 0 0 20px chartreuse;
+    margin: 20px auto;
 
 }
 .circle1{
@@ -83,41 +85,38 @@ p{
     display: inline-block;
     
 }
+.marker{
+    margin: 0 16px;
+    display: inline-block;
+
+}
 .smallbox{
-    height: 80px;
-    width: 120px;
+    height: 100px;
+    width: 180px;
     background-color: lightblue;
     display: inline-block;
     /*margin-top: 20px;*/
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 2px;
+    margin: 10px;
+   /* padding: 2px;*/
     
 
 }
-.smallbox1{
-    height: 80px;
-    width: 120px;
-    background-color: lightblue;
-    display: inline-block;
-    /*margin-top: 20px;*/
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding: 2px;
-    border: black solid 2px;
-    
-
+.border{
+  
+   border: 1px solid black;
+}
+.border-box{
+    box-sizing: border-box;
 }
 .all{
     
-    outline: 2px solid black;
+    /*outline: 2px solid black;
     display: inline-block;
     margin: 20px;
-    padding: 3px;
-    
+    padding: 3px;*/
+    width: 600px ;
+    border: solid black 1px;
+    font-size: 0px;
+    margin: 24px auto;
 }
 
