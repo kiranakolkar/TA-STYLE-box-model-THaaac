@@ -1,0 +1,91 @@
+body{
+     line-height: normal;
+}
+h2{
+   
+    text-align: center;
+}
+h1{
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+h3{
+    color: white;
+    padding-top: 20px;
+}
+   
+.link{
+    text-align: center;
+    margin-bottom: 20px;
+}    
+a{
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    padding-right: 15px;
+    
+
+}
+
+    
+.solid{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: 50px;
+    
+    
+    
+}
+.first{
+    background-color: rgb(3, 3, 19);
+    color: white;
+    height: 400px ;
+    width: auto;
+    padding-top: 10px;
+    
+    
+}
+p{
+    color: rgb(180, 175, 165);
+    margin-top: 30px;
+}
+img{
+   height: 200px;
+   width: 200px;
+   border-radius: 50%
+
+}
+.second{
+    background-color: rgb(33, 33, 163);
+    height: 400px;
+    width: auto;
+    padding-top: 10px;
+    
+}
+.firstimage{
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+.third{
+    background-color: rgb(28, 28, 87);
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.fourth{
+    background-color: rgb(66, 66, 212);
+    padding-top: 10px;
+}
+footer{
+    background-color: rgb(3, 3, 19);
+    color: white;
+    height: 50px;
+    padding-top: 25px;
+    width: auto;
+   
+}
+.copy{
+    margin-left: 70px; 
+    padding: auto;
+    
+}
