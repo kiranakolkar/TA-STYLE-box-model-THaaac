@@ -1,0 +1,122 @@
+header{
+text-align: center;
+font-size: 35px;
+font-style: normal;
+padding: 30px 280px;
+/*margin-left: 100px;
+margin-right: 100px;*/
+}
+body{
+   
+   line-height: 1.5;  
+    
+}
+.center{
+    margin-left: 350px;
+    margin-right: 350px;
+    text-align: center;   
+}
+.name{
+    text-align: center;
+}
+hr{
+    width: 500px;
+    border-style: dotted;
+    margin: 32px auto;
+  
+  
+}
+h2{
+    text-align: center;
+    padding: 10px;
+    
+}
+/*p{
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    padding: 1%;
+    margin: auto;
+    margin-top: 8px;
+    
+}*/
+.box{
+    width: 120px;
+    height: 120px;
+    background-color: cyan;
+    border: solid 20px coral;
+    outline: black solid 10px;
+    box-shadow:0 0 0 20px chartreuse;
+    margin: 20px auto;
+
+}
+.circle1{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: cadetblue;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+.circle2{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: cyan;
+    margin-top: 20px;
+    display: inline-block;
+}
+.circle3{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: black;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+.circle4{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: coral;
+    margin-top: 20px;
+    display: inline-block;
+    
+}
+.marker{
+    margin: 0 16px;
+    display: inline-block;
+
+}
+.smallbox{
+    height: 100px;
+    width: 180px;
+    background-color: lightblue;
+    display: inline-block;
+    /*margin-top: 20px;*/
+    margin: 10px;
+   /* padding: 2px;*/
+    
+
+}
+.border{
+  
+   border: 1px solid black;
+}
+.border-box{
+    box-sizing: border-box;
+}
+.all{
+    
+    /*outline: 2px solid black;
+    display: inline-block;
+    margin: 20px;
+    padding: 3px;*/
+    width: 600px ;
+    border: solid black 1px;
+    font-size: 0px;
+    margin: 24px auto;
+}
+

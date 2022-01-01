@@ -1,0 +1,85 @@
+<!---
+### Create a page according to the layout shown below
+
+![Box Model Exercise 6](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/box-model/ex-6.png)
+
+#### Problems for exercise 2 in the layout
+
+- Each parent container has width of 600px and border of 1px;
+- Each children box has width 180px and height 100px as well as margin of 10px;
+- Each child box which is having border has border-width 1px.
+- Note in the first container the boxes do not have any border.
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+--->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title> Box Assignment 3</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<header> The Box Model, Box-sizing & Box-Shadow</header>
+<body>
+    <section class="center">
+        <hr>
+        <h2> Exercise 1 </h2>
+        <div class="box">
+            
+        </div>
+
+        <div class="marker">
+           <span class="circle1"> </span>
+           <p1> Content</p1>
+        </div>
+        <div class="marker">
+           <span class="circle2"> </span>
+           <p1> Padding </p1>
+        </div>
+        <div class="marker"> 
+           <span class="circle3"> </span>
+           <p1> Border </p1>
+        </div> 
+        <div class="marker">
+           <span class="circle4"> </span>
+           <p1> Margin </p1>
+        </div>  
+        <hr>
+
+    </section>
+    
+    <section class="noncenter">
+        <h2> Exercise 2 </h2>
+        <div class="name"> no border in these boxes. </div>
+        <div class=" all">
+            <div class="smallbox"></div>
+            <div class="smallbox"></div>
+            <div class="smallbox"></div>
+        </div>
+    <hr>
+
+        <div class="name"> 1px border on these boxes. </div>
+        <div class=" all">
+            <div class="smallbox border"></div>
+            <div class="smallbox border"></div>
+            <div class="smallbox border"></div>
+        </div>
+    <hr>
+        
+
+    </section class="center" >
+    <section>
+        <div class="name">  1px border on these boxes but they are in a same line </div>
+        <div class=" all">
+            <span class="smallbox border border-box"></span>
+            <span class="smallbox border border-box"></span>
+            <span class="smallbox border border-box"></span>
+        </div>
+    </section>
+</body>
+
+</html>
